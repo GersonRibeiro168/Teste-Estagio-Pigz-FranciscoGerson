@@ -1,0 +1,12 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+
+hello:
+    path: /hello
+    controller: App\Controller\AplicacaoController::index
+
+retornaCliente:
+    path: /retornaCliente/{idCliente}
+    controller: App\Controller\AplicacaoController::retornaCliente    
